@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.font-code {
+  font-family: 'FiraCode';
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,5 @@ body {
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
