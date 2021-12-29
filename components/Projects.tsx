@@ -57,7 +57,7 @@ const Projects = () => {
         <Project
           image="https://cdn.dribbble.com/users/3604979/screenshots/15874424/media/093c0379549f8018de61c6c4e211d29b.png"
           title="IT Rocket"
-          intro="Where Good StuFFs are likely good"
+          intro="Online Data Sicence Courses"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
         atque, consequatur quibusdam corrupti perferendis, explicabo sed
         nihil dignissimos dolore dolores modi nobis doloremque laboriosam
@@ -92,7 +92,7 @@ const Projects = () => {
         <Project
           image="https://cdn.dribbble.com/users/3604979/screenshots/6826959/thur_1.png"
           title="Thur"
-          intro="Where Good StuFFs are likely good"
+          intro="Unique Backgrounds for you website"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
         atque, consequatur quibusdam corrupti perferendis, explicabo sed
         nihil dignissimos dolore dolores modi nobis doloremque laboriosam

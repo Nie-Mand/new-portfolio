@@ -3,9 +3,21 @@ import Link from 'next/link'
 import useParallaxEffect from '../hooks/useParallaxEffect'
 
 const Blogs = () => {
-  const { ref, initial, style } = useParallaxEffect({
+  const card1 = useParallaxEffect({
     yOffset: 100,
     triggerPoint: 0.3,
+    fadeOut: true,
+  })
+
+  const card2 = useParallaxEffect({
+    yOffset: 100,
+    triggerPoint: 0.3,
+    fadeOut: true,
+  })
+
+  const card3 = useParallaxEffect({
+    yOffset: 100,
+    triggerPoint: 1,
     fadeOut: true,
   })
 
@@ -14,13 +26,34 @@ const Blogs = () => {
       className="h-screen flex items-center justify-evenly"
       id="blog-section"
     >
-      <motion.div
-        ref={ref}
-        initial={initial}
-        style={{ ...style, backgroundImage: 'url(/worker.png)' }}
-        className="h-full bg-contain bg-no-repeat  bg-center w-60 "
-        title="https://cdn.dribbble.com/users/2837665/screenshots/11470856/media/4804692a4b6ac2e3bf2a96dff9caeab7.png"
-      ></motion.div>
+      <div className="text-center">
+        <motion.div
+          ref={card1.ref}
+          initial={card1.initial}
+          style={card1.style}
+          className="relative z-20  bg-contain bg-no-repeat bg-center w-96 shadow-2xl p-10 rounded-md"
+        >
+          <h1 className="font-black text-5xl">XP</h1>
+        </motion.div>
+
+        <motion.div
+          ref={card2.ref}
+          initial={card2.initial}
+          style={card2.style}
+          className="z-20 relative -top-10 left-10 bg-contain bg-no-repeat bg-center w-96 shadow-2xl p-10 rounded-md"
+        >
+          <h1 className="font-black text-5xl">AND</h1>
+        </motion.div>
+
+        <motion.div
+          ref={card3.ref}
+          initial={card3.initial}
+          style={card3.style}
+          className="z-30 relative -top-10 left-20 bg-contain bg-no-repeat bg-center w-96 shadow-2xl p-10 rounded-md"
+        >
+          <h1 className="font-black text-5xl">SANITY</h1>
+        </motion.div>
+      </div>
 
       <div>
         <h2
@@ -38,7 +71,7 @@ const Blogs = () => {
       after:block after:w-20 after:h-1/2 after:bg-black after:border-2 after:border-white after:absolute after:-left-28 after:top-4
       "
         >
-          My Blog Posts
+          My Blog
         </h1>
 
         <div className="mt-14 w-full flex justify-end">

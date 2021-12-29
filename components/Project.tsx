@@ -105,7 +105,7 @@ const Project = (props: Props) => {
         </motion.div>
         <div
           className={`max-w-sm relative -top-[100vh] right-0 z-10 h-screen flex flex-col justify-center gap-y-10 text-[6.5rem] leading-[90px] font-black uppercase ${
-            dark ? 'text-slate-900/60' : 'text-slate-300/60'
+            dark ? 'text-slate-900/80' : 'text-slate-300/60'
           }`}
         >
           {props.intro}
