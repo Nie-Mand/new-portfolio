@@ -25,8 +25,8 @@ const useParallaxEffect = (options?: Options) => {
     if (!ref.current) return
 
     const setValues = () => {
-      setElementTop(ref.current.offsetTop)
-      setElementBottom(ref.current.offsetTop + ref.current.offsetHeight)
+      setElementTop((ref.current as any).offsetTop)
+      setElementBottom((ref.current as any).offsetTop + (ref.current as any).offsetHeight)
       setClientHeight(window.innerHeight)
     }
 
