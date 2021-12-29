@@ -1,12 +1,4 @@
-@font-face {
-  font-family: "Inter var";
-  src: url(/fonts/Inter-roman-latin.var.woff2);
-}
-
-@font-face {
-  font-family: "FiraCode";
-  src: url(/fonts/FiraCode.woff2);
-}
+@import url(./fonts.css);
 
 @tailwind base;
 @tailwind components;
@@ -16,10 +8,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Inter var";
-  font-weight: 700;
+  font-family: 'Inter var';
 }
 
-.font-code {
-  font-family: "FiraCode";
+html {
+  overflow-x: hidden;
 }

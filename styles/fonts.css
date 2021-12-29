@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Inter var';
+  src: url(/fonts/Inter-roman-latin.var.woff2);
+}
+
+@font-face {
+  font-family: 'FiraCode';
+  src: url(/fonts/FiraCode.woff2);
+}
+
+@font-face {
+  font-family: 'CodeNext';
+  font-weight: 800;
+  src: url(/fonts/CodeNext-ExtraBold.woff2);
+}
+
+@font-face {
+  font-family: 'CodeNext';
+  font-weight: 900;
+  src: url(/fonts/CodeNext-Trial-Heavy.woff2);
+}
+
+@font-face {
+  font-family: 'CodeNext';
+  font-weight: 300;
+  src: url(/fonts/CodeNext-Trial-Light.woff2);
+}
+
+@font-face {
+  font-family: 'CodeNext';
+  font-weight: 400;
+  src: url(/fonts/CodeNext-Trial-Regular.woff2);
+}
+
+@font-face {
+  font-family: 'CodeNext';
+  font-weight: 600;
+  src: url(/fonts/CodeNext-Trial-SemiBold.woff2);
+}
+
+@font-face {
+  font-family: 'CodeNext';
+  font-weight: 100;
+  src: url(/fonts/CodeNext-Trial-Thin.woff2);
+}
+
+.font-code-next {
+  font-family: 'CodeNext';
+}
+
+.font-code {
+  font-family: 'FiraCode';
+}
