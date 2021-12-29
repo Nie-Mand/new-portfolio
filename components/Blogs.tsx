@@ -31,27 +31,27 @@ const Blogs = () => {
           ref={card1.ref}
           initial={card1.initial}
           style={card1.style}
-          className="relative z-20  bg-contain bg-no-repeat bg-center w-96 shadow-2xl p-10 rounded-md"
+          className="h-32 relative z-20  bg-contain bg-no-repeat bg-center w-96 shadow-2xl p-10 rounded-md"
         >
-          <h1 className="font-black text-5xl">XP</h1>
+          <h1 className="font-black text-5xl"></h1>
         </motion.div>
 
         <motion.div
           ref={card2.ref}
           initial={card2.initial}
           style={card2.style}
-          className="z-20 relative -top-10 left-10 bg-contain bg-no-repeat bg-center w-96 shadow-2xl p-10 rounded-md"
+          className="h-32 z-20 relative -top-5 left-10 bg-contain bg-no-repeat bg-center w-96 shadow-2xl p-10 rounded-md"
         >
-          <h1 className="font-black text-5xl">AND</h1>
+          <h1 className="font-black text-5xl"></h1>
         </motion.div>
 
         <motion.div
           ref={card3.ref}
           initial={card3.initial}
           style={card3.style}
-          className="z-30 relative -top-10 left-20 bg-contain bg-no-repeat bg-center w-96 shadow-2xl p-10 rounded-md"
+          className="h-32 z-30 relative -top-5 left-20 bg-contain bg-no-repeat bg-center w-96 shadow-2xl p-10 rounded-md"
         >
-          <h1 className="font-black text-5xl">SANITY</h1>
+          <h1 className="font-black text-5xl"></h1>
         </motion.div>
       </div>
 
