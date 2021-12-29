@@ -75,7 +75,7 @@ const Blogs = () => {
         </h1>
 
         <div className="mt-14 w-full flex justify-end">
-          <Link href="#projects">
+          <Link href="/blog">
             <a className="hover:scale-110 duration-150 bg-primary text-white font-semibold px-4 py-2 rounded-lg shadow">
               Go to Blog
             </a>
