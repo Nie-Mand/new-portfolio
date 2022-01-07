@@ -66,7 +66,7 @@ const Header = () => {
           className="text-white"
         >
           My Name is{' '}
-          <span className="font-bold text-xl">John SomeOne's Doe</span>, and
+          <span className="font-bold text-xl">John SomeOnes Doe</span>, and
           i<span className="text-primary font-bold text-2xl">C</span>ode
         </motion.h2>
 
